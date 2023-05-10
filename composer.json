@@ -1,8 +1,15 @@
 {
     "name": "dovetaily/laravel_db_generator",
     "type": "library",
-    "require": {
+    "keywords": [
+        "php", "laravel", "console", "artisan", "artisan-laravel", "artisan_laravel", "db", "database", "bdd", "database-generator", "laravel-generator", "laravel-api",
+        "laravel-controller", "laravel-factory", "laravel-controller", "quick-laravel"
+    ],
+    "homepage" : "https://github.com/dovetaily/laravel_db_generator",
+    "require-dev": {
         "dovetaily/compio": ">=2.*",
+    },
+    "require": {
         "laravel/framework": ">=6.*",
         "php": ">=7.3"
     },
@@ -19,8 +26,9 @@
     },
     "authors": [
         {
-            "name": "gedeontimothy",
+            "name": "Gedeon Timothy",
+            "github": "https://github.com/gedeontimothy",
             "email": "gedeonbateko3@gmail.com"
         }
-    ]
+    ],
 }
