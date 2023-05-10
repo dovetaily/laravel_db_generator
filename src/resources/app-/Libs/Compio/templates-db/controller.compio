@@ -1,0 +1,9 @@
+<?php
+
+namespace @controller_namespace;
+
+@controller_import_class
+class @controller_class@controller_extends@controller_implements
+{@controller_import_trait@controller_properties
+
+@controller_methods}

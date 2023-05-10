@@ -1,0 +1,27 @@
+<?php
+
+@migration_import_class
+
+class @class_name@migration_extends@migration_implements
+{@migration_import_trait
+	/**
+	 * Run the migrations.
+	 *
+	 * @return void
+	 */
+	public function up()
+	{
+		Schema::create('@migration_table', function (Blueprint $table) {@migration_properties@migration_column@migration_foreign
+		});
+	}
+
+	/**
+	 * Reverse the migrations.
+	 *
+	 * @return void
+	 */
+	public function down()
+	{
+		Schema::dropIfExists('@migration_table');
+	}
+}

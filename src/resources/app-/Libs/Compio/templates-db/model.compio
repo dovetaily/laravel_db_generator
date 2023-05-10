@@ -1,0 +1,13 @@
+<?php
+
+namespace @model_namespace;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+@model_import_class
+class @model_class@model_extends@model_implements
+{@model_import_trait@model_properties
+
+	@model_fillable@model_hidden@model_casts
+
+@model_belongs_to@model_has_one@model_has_many@model_methods
+}

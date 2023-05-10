@@ -1,0 +1,18 @@
+<?php
+@seeder_namespace
+use @model_full_class;
+@seeder_import_class
+class @seeder_class@seeder_extends@seeder_implements
+{@seeder_import_trait
+
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+    	@seeder_seed
+    }
+
+}

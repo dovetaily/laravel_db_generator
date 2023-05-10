@@ -1,0 +1,17 @@
+<?php
+
+namespace @repository_namespace;
+
+use @model_full_class;
+@repository_import_class
+
+class @repository_class@repository_extends@repository_implements
+{@repository_import_trait
+
+	/**
+	 * @var @model_class
+	 */
+
+	protected $commune;
+
+@repository_methods}
